@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A6C5B7600D3D053412B7C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B771370BF29902091F4ED224 /* Assets.xcassets */; };
+		21DDCBDF19313DA07A7C4C13 /* SpotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6909EE03F815DC27EF0320 /* SpotData.swift */; };
+		2E43E3891F6BB30DCF7A047F /* TokyoSerif-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AECE288A94C41F55C0CBA58 /* TokyoSerif-SemiBold.ttf */; };
+		3A5374C2049A62D273BB2E21 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003F4D7712C694BD233FAB3 /* Spot.swift */; };
+		4606FBA5B66F05178723B5E7 /* AreaViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456735BF6DB699E9BE672B2E /* AreaViews.swift */; };
+		48CB6A03C3D6012EF5379F30 /* SpotListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA5615E92D72A31B7C8B6B4 /* SpotListView.swift */; };
+		56179CB0CB383659D8A5D90B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150CEBA9C6092FEFE828507 /* Theme.swift */; };
+		6831C1C819140CC0DBE4E16F /* SpotDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3FA99CCFC403EE2A8D0F5 /* SpotDetailView.swift */; };
+		9750B974D194B05A11A3D2F3 /* TokyoSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 529118242A672202BBAD3B16 /* TokyoSerif-Regular.ttf */; };
+		9BC2C3D4F407B9F99B4A351D /* TokyoGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B1D4D873BBC049A9928FA1 /* TokyoGuideApp.swift */; };
+		AFCCFA2DA349D8F32F4848C0 /* FeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08973F36EB449F80067A9110 /* FeaturedView.swift */; };
+		FF0282DB64F311D1A7972EB4 /* SpotWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2CF71BFC0F9CD8672F028 /* SpotWebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08973F36EB449F80067A9110 /* FeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedView.swift; sourceTree = "<group>"; };
+		2003F4D7712C694BD233FAB3 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		3AECE288A94C41F55C0CBA58 /* TokyoSerif-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TokyoSerif-SemiBold.ttf"; sourceTree = "<group>"; };
+		456735BF6DB699E9BE672B2E /* AreaViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViews.swift; sourceTree = "<group>"; };
+		4DC3FA99CCFC403EE2A8D0F5 /* SpotDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailView.swift; sourceTree = "<group>"; };
+		529118242A672202BBAD3B16 /* TokyoSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TokyoSerif-Regular.ttf"; sourceTree = "<group>"; };
+		5FA5615E92D72A31B7C8B6B4 /* SpotListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotListView.swift; sourceTree = "<group>"; };
+		6150CEBA9C6092FEFE828507 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		6F6909EE03F815DC27EF0320 /* SpotData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotData.swift; sourceTree = "<group>"; };
+		80FC149E4CDDE95063F1BDC3 /* TokyoGuide.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TokyoGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA2CF71BFC0F9CD8672F028 /* SpotWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotWebView.swift; sourceTree = "<group>"; };
+		B771370BF29902091F4ED224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4B1D4D873BBC049A9928FA1 /* TokyoGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokyoGuideApp.swift; sourceTree = "<group>"; };
+		F4051858E962927E40271B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		108BC9B8955B28F87884F894 = {
+			isa = PBXGroup;
+			children = (
+				76724C4D7339BD8B07E2D1E7 /* TokyoGuide */,
+				B79ED19A8A1D302B7B9644B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F18F95674F69F3A6A97A309 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				456735BF6DB699E9BE672B2E /* AreaViews.swift */,
+				08973F36EB449F80067A9110 /* FeaturedView.swift */,
+				4DC3FA99CCFC403EE2A8D0F5 /* SpotDetailView.swift */,
+				5FA5615E92D72A31B7C8B6B4 /* SpotListView.swift */,
+				8FA2CF71BFC0F9CD8672F028 /* SpotWebView.swift */,
+				6150CEBA9C6092FEFE828507 /* Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76724C4D7339BD8B07E2D1E7 /* TokyoGuide */ = {
+			isa = PBXGroup;
+			children = (
+				B771370BF29902091F4ED224 /* Assets.xcassets */,
+				F4051858E962927E40271B8F /* Info.plist */,
+				D4B1D4D873BBC049A9928FA1 /* TokyoGuideApp.swift */,
+				B7A3CC9F6C17A980AD22926E /* Data */,
+				BA04A6EB212339F5D5E9D754 /* Fonts */,
+				A6091DB31640D3AF3EFC7085 /* Models */,
+				5F18F95674F69F3A6A97A309 /* Views */,
+			);
+			path = TokyoGuide;
+			sourceTree = "<group>";
+		};
+		A6091DB31640D3AF3EFC7085 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2003F4D7712C694BD233FAB3 /* Spot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B79ED19A8A1D302B7B9644B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FC149E4CDDE95063F1BDC3 /* TokyoGuide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7A3CC9F6C17A980AD22926E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6F6909EE03F815DC27EF0320 /* SpotData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BA04A6EB212339F5D5E9D754 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				529118242A672202BBAD3B16 /* TokyoSerif-Regular.ttf */,
+				3AECE288A94C41F55C0CBA58 /* TokyoSerif-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C27B091D9D8055E79866CBA /* TokyoGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E021B5EC88995CCDE986F1 /* Build configuration list for PBXNativeTarget "TokyoGuide" */;
+			buildPhases = (
+				7B99CCCAE2FF6AD46B557D52 /* Sources */,
+				81D65FEF58B185A266BF8186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokyoGuide;
+			packageProductDependencies = (
+			);
+			productName = TokyoGuide;
+			productReference = 80FC149E4CDDE95063F1BDC3 /* TokyoGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		745C58561939E77E90C43FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8C27B091D9D8055E79866CBA = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 2C012AC660F68453BAA61CF3 /* Build configuration list for PBXProject "TokyoGuide" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 108BC9B8955B28F87884F894;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B79ED19A8A1D302B7B9644B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C27B091D9D8055E79866CBA /* TokyoGuide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81D65FEF58B185A266BF8186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6C5B7600D3D053412B7C01 /* Assets.xcassets in Resources */,
+				9750B974D194B05A11A3D2F3 /* TokyoSerif-Regular.ttf in Resources */,
+				2E43E3891F6BB30DCF7A047F /* TokyoSerif-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B99CCCAE2FF6AD46B557D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4606FBA5B66F05178723B5E7 /* AreaViews.swift in Sources */,
+				AFCCFA2DA349D8F32F4848C0 /* FeaturedView.swift in Sources */,
+				3A5374C2049A62D273BB2E21 /* Spot.swift in Sources */,
+				21DDCBDF19313DA07A7C4C13 /* SpotData.swift in Sources */,
+				6831C1C819140CC0DBE4E16F /* SpotDetailView.swift in Sources */,
+				48CB6A03C3D6012EF5379F30 /* SpotListView.swift in Sources */,
+				FF0282DB64F311D1A7972EB4 /* SpotWebView.swift in Sources */,
+				56179CB0CB383659D8A5D90B /* Theme.swift in Sources */,
+				9BC2C3D4F407B9F99B4A351D /* TokyoGuideApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A7735B40999A99A05B373A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TokyoGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpcap.TokyoGuide;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DD5D29E77D57BA163F5984A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		BA8C3310993C583119CDB801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		BD3C5A098A2608E5CFFC3620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TokyoGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpcap.TokyoGuide;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02E021B5EC88995CCDE986F1 /* Build configuration list for PBXNativeTarget "TokyoGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7735B40999A99A05B373A6 /* Debug */,
+				BD3C5A098A2608E5CFFC3620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2C012AC660F68453BAA61CF3 /* Build configuration list for PBXProject "TokyoGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD5D29E77D57BA163F5984A /* Debug */,
+				BA8C3310993C583119CDB801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 745C58561939E77E90C43FCA /* Project object */;
+}
